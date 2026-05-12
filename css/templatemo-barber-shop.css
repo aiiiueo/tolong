@@ -11,7 +11,7 @@ https://templatemo.com/tm-585-barber-shop
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 :root {
-  --white-color:                  #ffffff;
+  --white-color:                  #030736;
   --primary-color:                #5f92d4;
   --secondary-color:              #fae0cd;
   --section-bg-color:             #f0f8ff;
@@ -453,7 +453,7 @@ strong {
   FEATURED               
 -----------------------------------------*/
 .featured-section {
-  background-image: url('../images/barber-customer-giving-high-five.jpg');
+  background-image: url('../images/Teratai.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -677,7 +677,7 @@ strong {
 
 .site-footer::after {
   content: "";
-  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  background: linear-gradient(90deg, #5f92d4 0%, #000000 100%);
   position: absolute;
   right: 0;
   bottom: 0;
