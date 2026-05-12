@@ -12,10 +12,10 @@ https://templatemo.com/tm-585-barber-shop
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #d6a354;
-  --secondary-color:              #c12828;
+  --primary-color:                #5f92d4;
+  --secondary-color:              #fae0cd;
   --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #c12828;
+  --custom-btn-bg-color:          #5f92d4;
   --custom-btn-bg-hover-color:    #FDBB2D;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -170,7 +170,7 @@ strong {
 }
 
 .custom-block-bg-overlay-wrap:hover {
-  background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+  background: linear-gradient(90deg, #050159 0%, #000000 100%);
   transform: scale(1.05);
 }
 
