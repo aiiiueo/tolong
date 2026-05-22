@@ -11,7 +11,7 @@
   <body>
   <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form action="#" id="registrationForm">
+		<form action="#" id="registerForm">
 			<h1>Sign Up</h1>
 			<div class="social-container">
 				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -19,12 +19,9 @@
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>atau gunakan email untuk registrasi</span>
-			<input type="text" id="reg-username" placeholder="Nama" required/>
-			<input type="email" id="reg-email" placeholder="Email" required/>
-			<input type="password" id="reg-password" placeholder="Password" required/>
-			<!-- <p id=message"></p> -->
-			<button type="submit">Sign Up</button>
-			<div id="alertBox" class="alert" style="display:none;"></div>
+			<input type="text" id="reg-username" placeholder="Nama" required></input>
+			<input type="email" id="reg-email" placeholder="Email" required></input>
+			<input type="password" id="reg-password" placeholder="Password" required></input>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
@@ -36,10 +33,8 @@
 				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>atau gunakan akun anda</span>
-			<input type="text" id="username" placeholder="Nama" required/>
-			<input type="password" id="password" placeholder="Password" required/>
-			<!-- <p id="message"></p> -->
-			<button type="submit">Sign In</button>
+			<input type="text" required id="username" placeholder="Nama"></input>
+			<input type="password" required id="password" placeholder="Password"></input>
 			<button onclick="locatiaon.href='../index.html';">home</button>
 			<div id="alertBox" class="alert" style="display:none;"></div>
 		</form>
