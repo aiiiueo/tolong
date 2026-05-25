@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("userInfo").innerText = "Halo, " + user;
 
         document.getElementById("authArea").innerHTML = `
-            <<a class="nav-cta btn custom-btn custom-border-btn custom-btn-bg-white smoothscroll me-2 mb-2" onclick="logout()" class="nav-cta">Logout</a>
+            <a class="nav-cta btn custom-btn custom-border-btn custom-btn-bg-white smoothscroll me-2 mb-2" onclick="logout()" class="nav-cta">Logout</a>
         `;
     }
 
